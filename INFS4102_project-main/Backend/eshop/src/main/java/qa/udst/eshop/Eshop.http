@@ -1,0 +1,110 @@
+
+
+### Get all products
+GET http://localhost:8080/eshop/product-catalog
+Accept: application/json
+
+POST http://localhost:8080/cart/56751988-0b8e-43bc-b31a-0e15f3310439/add/?quantity=1
+
+
+### Equipment - Dumbbell Set
+POST http://localhost:8080/eshop/equipment
+Content-Type: application/json
+
+{
+  "name": "Dumbbell Set",
+  "price": 49.99,
+  "category": "EQUIPMENT",
+  "desc": "Adjustable dumbbells",
+  "imageURL": "https://images.com/dumbbells.jpg",
+  "weightKg": 20.0,
+  "dimensions": "10x20"
+}
+
+### Equipment - Kettlebell
+POST http://localhost:8080/eshop/equipment
+Content-Type: application/json
+
+{
+  "name": "Kettlebell",
+  "price": 39.99,
+  "category": "EQUIPMENT",
+  "desc": "16kg kettlebell",
+  "imageURL": "https://images.com/kettlebell.jpg",
+  "weightKg": 16.0,
+  "dimensions": "15x15"
+}
+
+### Clothing - T-Shirt
+POST http://localhost:8080/eshop/clothing
+Content-Type: application/json
+
+{
+  "name": "T-Shirt",
+  "price": 29.99,
+  "category": "CLOTHING",
+  "desc": "Casual cotton t-shirt",
+  "imageURL": "https://images.com/tshirt.jpg",
+  "size": "M"
+}
+
+### Clothing - Joggers
+POST http://localhost:8080/eshop/clothing
+Content-Type: application/json
+
+{
+  "name": "Joggers",
+  "price": 49.99,
+  "category": "CLOTHING",
+  "desc": "Comfortable sweatpants",
+  "imageURL": "https://images.com/joggers.jpg",
+  "size": "L"
+}
+
+### Nutrition - Protein Powder
+POST http://localhost:8080/eshop/nutrition
+Content-Type: application/json
+
+{
+  "name": "Protein Powder",
+  "price": 59.99,
+  "category": "NUTRITION",
+  "desc": "Whey protein 2kg",
+  "imageURL": "https://images.com/protein.jpg",
+  "weightKg": 2.0,
+  "calories": 120
+}
+
+### Nutrition - Energy Bar
+POST http://localhost:8080/eshop/nutrition
+Content-Type: application/json
+
+{
+  "name": "Energy Bar",
+  "price": 3.99,
+  "category": "NUTRITION",
+  "desc": "Chocolate flavored energy bar",
+  "imageURL": "https://images.com/energybar.jpg",
+  "weightKg": 0.05,
+  "calories": 250
+}
+
+### Accessory - Water Bottle
+POST http://localhost:8080/eshop/accessory
+Content-Type: application/json
+
+{
+  "name": "Water Bottle",
+  "price": 12.99,
+  "category": "ACCESSORY",
+  "desc": "Insulated water bottle",
+  "imageURL": "https://images.com/waterbottle.jpg",
+  "material": "Stainless Steel"
+}
+
+### Accessory - Gym Gloves
+POST http://localhost:8080/cart/5d9879f3-c9bf-499d-b861-3d64549f3d06/add/690dbe5e91bc4c642bf25830?quantity=1
+Content-Type: application/json
+
+POST http://localhost:8080/cart/69284d717a44d4723fdfcbdc/add/690dbe5791bc4c642bf2582f
+Content-Type: application/json
